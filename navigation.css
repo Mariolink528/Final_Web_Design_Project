@@ -1,0 +1,21 @@
+ul.nav{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.nav li{
+    border: 1px solid;
+}
+.nav a{
+    display:block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background-color: black;
+    color: black;
+}
+.nav a:hover{
+
+}
+@media screen and (min-width: 960px) {
+
+}
