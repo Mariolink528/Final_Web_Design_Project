@@ -1,21 +1,41 @@
+header {
+    position: relative;
+}
 ul.nav{
-    display:flex;
     flex-direction: column;
     list-style-type: none;
+    display: flex;
+    height: 0;
+    opacity: 0;
+    transition: all 1s ease-out 100ms;
+}
+ul.nav.active {
+    height: inherit;
+    opacity: 1.0;
 }
 .nav li{
     border: 1px solid;
 }
+.highlight{
+    max-width: 45rem;
+}
+
 .nav a{
     display:block;
     padding: .5rem 1rem;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: #052b2e;
+    color: #7fe6f0;
 }
-.nav a:hover{
 
-}
 @media screen and (min-width: 960px) {
+    ul.nav {
+        flex-direction: row;
+    }
+    
+    ul.nav {
+        height: inherit;
+        opacity: 1.0;
+    }
 
 }

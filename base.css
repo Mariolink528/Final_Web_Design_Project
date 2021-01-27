@@ -3,3 +3,28 @@ body{
     color: #052b2e;
     font-family: 'Lato', sans-serif;
 }
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: .5rem 1rem;
+    max-width: 45rem;
+}
+li {
+    list-style-position: inside;
+}
+figure.box-right {
+    max-width: 98vw;
+}
+.box-right img {
+    max-width: 100%;
+}
+
+a {
+    color:#0C535A;
+    
+}
+a:visited{
+    color: #7414B8;
+}
+a:hover{
+    color:#23d5e6;
+}

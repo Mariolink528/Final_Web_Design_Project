@@ -1,18 +1,25 @@
 .landing-page{
-    margin-bottom: 2rem;
-    layout:flex;
+
+    display:flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.landing-page figure{
-    width: 30%;
+.landing-page{
+    margin-bottom: 2rem;
+}
+.landing-page section figure{
+    width: 25%;
     max-width: 300px;
     margin: 0;
     padding: .5rem 1rem;
 }
-.landing-page figure img{
+.landing-page section figure img{
     width:auto;
 }
+li{
+    list-style: none;
+}
+
 @media screen and (min-width: 960px) {
     main{
         margin:0;
